@@ -1,0 +1,103 @@
+
+body {
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+}
+
+
+
+menu {
+    
+    display: flex;
+    padding: 0%;
+}
+
+
+
+.contactos {
+  flex-basis: 20rem;
+  background-color: white;
+}
+
+.chat {
+    flex: 1;
+    background-color: #E8EBE4;
+    height: 118vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chat img {
+    width: auto;
+    height: 17rem;
+    border-radius: 5%;
+}
+
+.espacio {
+    text-align: center;
+    max-width: 60%;
+}
+
+.perfil {
+    display: flex;
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.perfil img {
+    width: 40px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+
+.perfil h3 {
+    font-size: 16px;
+    margin: 0 0; 
+}
+
+.perfil p {
+    font-size: 10px; 
+    color: gray; 
+    display: ruby;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10%; 
+  }
+
+.usuario h3 {
+    font-size: 18px;
+    margin: 0 0; 
+}
+
+.usuario h5 {
+    font-size: 14px;
+    margin: 0 0; 
+}
+
+.nombre {
+    text-align: left;
+}
+
+.usuario-chat {
+    text-align: end;
+    margin-right: 1rem;
+}
+
+.usuario img {
+    width: 50px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+
+
